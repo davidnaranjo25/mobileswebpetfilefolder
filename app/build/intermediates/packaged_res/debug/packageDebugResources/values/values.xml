@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F6F7FB</color>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#FFB300</color>
+    <color name="colorPrimary">#22B573</color>
+    <color name="colorPrimaryDark">#15814B</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Fit Pet</string>
+    <string name="empezar">Empezar</string>
+    <style name="Base.Theme.Fitpet" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.FitPet" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+    <style name="Theme.Fitpet" parent="Base.Theme.Fitpet"/>
+</resources>
